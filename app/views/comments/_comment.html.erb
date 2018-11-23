@@ -1,0 +1,18 @@
+<div class="box">
+  <article class="media">
+    <div class="media-content">
+      <div class="content">
+        <p>
+        
+          <strong><%= comment.name %>:</strong>
+          <%= comment.comment %><br> <%= current_user.email %> <b>comento</b>
+          <br><br> <%= time_ago_in_words comment.created_at %> ago
+
+        </p>
+      </div>
+    </div>
+     <%= link_to 'Delete', [comment.post, comment],
+                  method: :delete, class: "button is-danger", data: { confirm: 'Esta seguro que desea eliminar el comentario?' } %>
+  </article>
+
+</div>
