@@ -5,7 +5,7 @@
         <p>
         
           <strong><%= comment.name %>:</strong>
-          <%= comment.comment %><br> <%= current_user.email %> <b>comento</b>
+          <%= comment.comment %><br> <%= @post.user.email %> <b>comento</b>
           <br><br> <%= time_ago_in_words comment.created_at %> ago
 
         </p>
@@ -13,6 +13,7 @@
     </div>
      <%= link_to 'Delete', [comment.post, comment],
                   method: :delete, class: "button is-danger", data: { confirm: 'Esta seguro que desea eliminar el comentario?' } %>
+                  <!--<%= link_to 'Editar', [comment.post, comment], class: "button is-danger" %>-->
   </article>
 
 </div>
