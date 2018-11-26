@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Blog</title>
+    <title>BLOG</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -19,8 +19,7 @@
 	    <nav class="navbar">
 	      <div class="container">
 	        <div class="navbar-brand">
-	          <%= link_to 'Inicio', root_path, class: "navbar-item" %>
-						<%= link_to 'Tus articulos', posts_path, class: "navbar-item" %>
+	         <b> <%= link_to 'Inicio', root_path, class: "navbar-item" %></b>
 	          <span class="navbar-burger burger" data-target="navbarMenuHeroA">
 	            <span></span>
 	            <span></span>
@@ -29,6 +28,7 @@
 	        </div>
 	        <div id="navbarMenuHeroA" class="navbar-menu">
 	          <div class="navbar-end">
+
 	            <%= link_to "Crear nuevo post", new_post_path, class:"navbar-item" %>
 							<p style="margin-top: 2.5%">
                   <%  if user_signed_in? %>
