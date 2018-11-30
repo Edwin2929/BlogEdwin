@@ -1,21 +1,29 @@
-Blog con ruby on rails 
+<b>Blog con ruby on rails </b>
 
-Que hace?
+<b>Que hace?</b>
+<br>
 este blog tiene la funcion de publicar y comentar posts, a la vez puedes crear e iniciar cuenta.
 
-versiones 
+<b>versiones</b> 
+<br>
 Rails ~> 5.1.4
+<br>
 Ruby ~> 2.2.6
 
-Requisitos
--Ruby on Rails 
+<b>Requisitos</b>
+<br>
+-Ruby on Rails
+<br>
 -Editor ide como: visual studio code, atom, brackets o otros (recomendado visual studio code por tener terminal)
 -consola o la terminal del editor
 
-Como ejecutarlo ?
-desde la consola----
-para ejecutarlo desde la consola se hacen los siguientes pasos-
-
+<b>Como ejecutarlo ? </b>
+<br>
+<h1>desde la consola</h1>
+<br>
+<h3>
+para ejecutarlo desde la consola se hacen los siguientes pasos
+</h3>
 1- Entrar a la carpeta del proyecto 
 
 2- Al estar dentro escribes el siguiente comando ( bundle install o bundle )esto va actualizar y a descargar las gemas del proyecto
